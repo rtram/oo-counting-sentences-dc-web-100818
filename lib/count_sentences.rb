@@ -15,7 +15,8 @@ class String
   end
 
   def count_sentences
-    self.split
+    if self.split.each do |word|
+    
     binding.pry
   end
 end
