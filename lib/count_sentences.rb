@@ -22,6 +22,5 @@ class String
       end 
     end 
     return count
-    binding.pry
   end
 end
